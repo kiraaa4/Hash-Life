@@ -1,0 +1,55 @@
+{
+  "name": "hash_life",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "bootstrap-vue": "^2.0.4",
+    "core-js": "^3.3.2",
+    "jquery": "^3.4.1",
+    "nightwatch": "^1.2.4",
+    "popper.js": "^1.16.0",
+    "superagent": "^5.1.0",
+    "sweetalert2": "^9.1.6",
+    "vue": "^2.6.10",
+    "vue-slider-component": "^3.0.42",
+    "vue2-hammer": "^2.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.0.0",
+    "@vue/cli-plugin-eslint": "^4.0.0",
+    "@vue/cli-service": "^4.0.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.6.0",
+    "eslint-plugin-vue": "^6.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
